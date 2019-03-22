@@ -239,8 +239,7 @@ h6 {
   max-width: 30rem;
 }
 
-#page-top > section.callout > div > h2{COLOR:LIGHTGREY;
-padding: 0 20px!important;}
+#page-top > section.callout > div > h2{COLOR:LIGHTGREY;}
 
 .portfolio-item {
   display: block;
