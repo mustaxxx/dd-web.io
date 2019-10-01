@@ -308,16 +308,15 @@ footer{background-color:#1e0330!important;}
 }
 .sidebar-nav{color:#009dfe!important;}
 .portfolio-item .caption .caption-content h2 {
- font-size: 1.4em;
-    background-color: #30074c;
+font-size: 1.4em;
+    background-color: #009dfe;
     text-transform: uppercase;
-    color: #009dfe;
+    color: #30074c;
     padding: 10px 20px;
 }
 
 .portfolio-item .caption .caption-content p {
 padding: 10px 20px;
-    font-weight: 300;
     color: #009dfe;
     background-color: #30074c;
     font-size: 1.2rem;
