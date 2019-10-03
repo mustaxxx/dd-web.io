@@ -65,6 +65,7 @@ h6 {
   display: none;
   transition:0.3s;
   width: 45px;
+  z-index: 9999999999;
   text-align: center;
      color: #d4af37;
     background: rgb(30, 3, 48);
