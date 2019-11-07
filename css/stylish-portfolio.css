@@ -296,8 +296,10 @@ display: flex;
 #about{background-color:#0a0a0a!important;
 color:#ffffff!important}
 #portfolio{background-color:#0a0a0a!important;
+padding-bottom:0px!important;
 color:#ffffff!important}
 #galerija{background-color:#0a0a0a!important;
+padding-top:40px;
 color:#ffffff!important}
 footer{background-color:#000000!important;}
 .portfolio-item .caption .caption-content {
