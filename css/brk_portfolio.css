@@ -7,10 +7,11 @@ body,
 html {
   width: 100%;
   height: 100%;
+  font-size:16px!important;
 }
 
 body {
-  font-family: 'Source Sans Pro';
+font-family: 'Merriweather', serif;
 }
 
 .btn-xl {
@@ -20,8 +21,8 @@ body {
 #page-top > header > div.container.text-center.my-auto{margin-bottom:-80px!important;}
 
 .content-section {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
+  padding-top:50px;
 }
 .text-white{color:#ffffff!important;}
 .content-section-heading h2 {
@@ -29,17 +30,18 @@ body {
 }
 
 .content-section-heading h3 {
+	padding:0 0 50px 0;
   font-size: 1rem;
   text-transform: uppercase;
 }
-
+h2{font-size:1.5em;}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .text-faded {
@@ -130,7 +132,7 @@ h6 {
   }
 
 #page-top > section.callout > div > h2{COLOR:LIGHTGREY;
-font-size:4em;}
+font-size:2em;}
 	
 @media (max-width: 992px) {
 	
@@ -168,12 +170,11 @@ font-size:2.6em;}
   top: 0;
   width: 100%;
   margin: 0;
-  padding: 0 15%;
+  padding: 0;
   text-align:left;
-  font-size:1.5em;
   list-style: none;
 }
-
+#services h4{padding:20px 0;}
 
 
 .sidebar-nav li a:hover {
@@ -192,7 +193,7 @@ font-size:2.6em;}
   padding-top: 15px;
   height:80px;
   padding-bottom: 15px;
-  padding-left: 15px;
+  text-align:center;
 }
 #logonavimg{width:120px;
 vertical-align: bottom;}
@@ -201,12 +202,12 @@ display: block;
     text-decoration: none;
     padding: 15px;
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight: 300;
     color: #ffffff;
 }
 .sidebar-nav > .sidebar-brand a {
   color: #fff;
-      font-weight: bold;
+      font-weight: 300;
     font-size: 1.3em;
 }
 
@@ -216,8 +217,8 @@ display: block;
 }
 
 #sidebar-wrapper.active {
-  right: 250px;
-  width: 100%;
+  right:  250px;
+  width: 250px;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
@@ -259,7 +260,7 @@ display: block;
 }
 
 .callout {
-  padding: 15rem 0;
+  padding: 12rem 0;
   background-attachment:fixed!important;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../img/bg-callout.jpg");
   background-position: center center;
@@ -268,7 +269,7 @@ display: block;
 }
 
 .callout h2 {
-  font-weight: 700;
+  font-weight: 300;
   display: block;
 }
 
@@ -301,7 +302,7 @@ color:#ffffff!important}
 padding-bottom:0px!important;
 color:#ffffff!important}
 #galerija{background-color:#0a0a0a!important;
-padding-top:40px;
+padding-top:50px;
 color:#ffffff!important}
 footer{background-color:#000000!important;}
 .portfolio-item .caption .caption-content {
@@ -309,7 +310,6 @@ footer{background-color:#000000!important;}
   margin: auto 2rem 2rem;
 }
 .sidebar-nav,.footcopy{color:#ffffff!important;}
-.pedingic{margin-top: 3rem!important;}
 .portfolio-item .caption .caption-content h2 {
 font-size: 1.4em;
     background-color: #ffffff;
@@ -325,7 +325,8 @@ padding: 10px 20px;
     font-size: 1.2rem;
 }
 
-h3{font-size:1.3em!important;}
+h3{font-size:1.5em!important;}
+h2{text-transform:uppercase}
 .hatri{padding:30px 0!important;
 font-size:2em!important;}
 footer.footer {
@@ -389,7 +390,7 @@ border-bottom:2px solid white!important;}
 
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .bg-primary {
@@ -415,12 +416,12 @@ display: block;
     text-decoration: none;
     padding: 15px;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 300;
     color: #ffffff;
 }
 .sidebar-nav > .sidebar-brand a {
   color: #fff;
-      font-weight: bold;
+      font-weight: 300;
     font-size: 1.1em;
 }
 }
